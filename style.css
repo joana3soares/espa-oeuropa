@@ -1,0 +1,63 @@
+body {
+	margin: 0px;
+	font-family: Arial, sans-serif;
+	line-height: 24 px
+}
+
+header {
+	text-align: center;
+	padding: 120px 10px;
+	background-image: url(./foto.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+div {
+	max-width: 900px;
+	margin: 40 px auto;
+	padding: 10px;
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+	background-color: lightgrey;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: black;
+}
+
+.botao{
+	background-color: purple;
+	padding: 10px 20px;
+	border-radius: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+.botao:hover{
+	color: black;
+}
+
+.lista-links li{
+	list-style: none;
+	margin: 0 10px;
+	display: inline;
+	color: white;
+}
+h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 48px;
+	color: black;
+	text-shadow: 2px 2px 4px white;
+}
+h2{
+	font-family: arial;
+	font-size: 24px;
+}
